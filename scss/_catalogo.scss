@@ -1,0 +1,62 @@
+#banner{
+    background-image: url(/img/fondoLadrillo.png);
+    background-repeat:repeat;
+    width: 100%;
+    height: 100px;
+    h1{
+        padding-top: 30px;
+        font-family: Sansita;
+        text-align: center;
+        font-size: 30px;
+    }
+}
+#mainCatalogo{
+    margin: auto;
+    padding:30px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    h3{
+        text-align: center;
+    }
+    .cards{
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        font-family: sansita;
+        font-size: 15px;
+        background-color: white;
+    
+    }
+    .vela2{
+        text-align: center;
+        width: 33%;
+    }
+    .radioImg{
+        border-radius: 30px;
+        width: 300px;
+    }
+    .paddingsTextos{
+        padding-top: 20px;
+    }
+    .carousel{
+        width: 800px;
+        margin: auto;
+        padding: 10px;
+    }
+    .button{
+        display: flex;
+        justify-content: center;
+        padding-top: 50px;
+    }
+    .boton{
+        border-radius: 10px;
+        background-color:#e9ce8a;
+        text-align: center;
+        border-style: none;
+        padding:15px;
+        font-family: sansita;
+        color: #8b2465;
+    }
+}

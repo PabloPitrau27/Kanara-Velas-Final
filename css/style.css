@@ -1,0 +1,877 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+header nav {
+  width: 100%;
+  height: 150px;
+  background-color: transparent;
+  position: absolute;
+  padding-top: 30px;
+  text-align: center;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+header nav ul {
+  padding: 0%;
+}
+
+header nav ul li {
+  display: inline;
+  padding: 13px;
+  margin: auto;
+  font-family: 'Sansita', sans-serif;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+header nav ul li a {
+  list-style-type: none;
+  text-decoration: none;
+  color: white;
+}
+
+footer {
+  background-color: #e9ce8a;
+  height: 158px;
+  width: 100%;
+}
+
+footer #footerGeneral {
+  padding-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: reverse;
+          flex-direction: reverse;
+}
+
+footer #footerGeneral a {
+  text-align: center;
+}
+
+footer #footerGeneral #logoFooter img {
+  width: 200px;
+  margin-left: 10px;
+}
+
+footer #footerGeneral #instagram {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+footer #footerGeneral #instagram h4 {
+  font-family: sansita;
+  color: #8b2465;
+  text-align: center;
+  font-size: 1.5rem;
+  padding-bottom: 10px;
+}
+
+footer #footerGeneral #instagram img {
+  width: 70px;
+  height: 70px;
+}
+
+footer #footerGeneral #instagram .tamañoLogos {
+  width: 80px;
+  height: 80px;
+}
+
+footer #footerGeneral #linksFooter {
+  padding-right: 20px;
+}
+
+footer #footerGeneral ul {
+  list-style: none;
+}
+
+footer #footerGeneral li {
+  font-family: sansita;
+  color: #8b2465;
+}
+
+footer #footerGeneral a {
+  text-decoration: none;
+  color: #8b2465;
+}
+
+body {
+  width: 100%;
+  background-color: transparent;
+}
+
+body main h2 {
+  text-align: center;
+  padding: 40px;
+  font-family: sansita;
+}
+
+body main .columnas {
+  width: 100%;
+}
+
+body main h3 {
+  color: black;
+  font-family: sansita;
+}
+
+body main p {
+  color: #8b2465;
+  padding: 30px;
+  font-size: 20px;
+  font-family: sansita;
+}
+
+body .textoPresentacion {
+  padding-top: 50px;
+  font-family: sansita;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-size: 20px;
+}
+
+body .textoPresentacion img {
+  width: 200px;
+  margin-top: -30px;
+}
+
+body .textoPresentacion h2 {
+  text-align: center;
+  padding: 30px;
+}
+
+body .textoPresentacion p {
+  padding: 75px;
+  color: #8b2465;
+  width: 100%;
+}
+
+.parallax {
+  background-image: url("/img/carousel/c3.JPG");
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax2 {
+  background-image: url("/img/carousel/c6.JPG");
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax3 {
+  background-image: url("/img/fondoLadrillo.png");
+  min-height: 100px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax4 {
+  background-image: url("/img/carousel/c7.JPG");
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax5 {
+  background-image: url("/img/carousel/c1.JPG");
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax6 {
+  background-image: url("/img/carousel/c4.JPG");
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.figure1 {
+  background-color: white;
+}
+
+.figure1 h4 {
+  color: #8b2465;
+}
+
+.figure1 figcaption {
+  background-color: #f8dbb4;
+}
+
+.figure1 figcaption h4 {
+  color: #8b2465;
+}
+
+.figure2 {
+  background-color: white;
+}
+
+.figure2 figcaption {
+  background-color: #439EA8;
+}
+
+.figure2 figcaption p {
+  color: white;
+}
+
+.figure3 {
+  background-color: white;
+}
+
+.figure3 figcaption {
+  background-color: #C77285;
+}
+
+.figure3 figcaption p {
+  color: white;
+}
+
+.figure4 {
+  background-color: white;
+}
+
+.figure4 figcaption {
+  background-color: #DD564D;
+}
+
+.figure4 figcaption p {
+  color: white;
+}
+
+.figure5 {
+  background-color: white;
+}
+
+.figure5 figcaption {
+  background-color: #67673C;
+}
+
+.figure5 figcaption p {
+  color: white;
+}
+
+.figure6 {
+  background-color: white;
+}
+
+.figure6 figcaption {
+  background-color: #FCDE58;
+}
+
+.figure6 figcaption h4 {
+  color: #8b2465;
+}
+
+.figure7 {
+  background-color: white;
+}
+
+.figure7 figcaption {
+  background-color: #2F3025;
+}
+
+.figure7 figcaption p {
+  color: white;
+}
+
+.figure8 {
+  background-color: white;
+}
+
+.figure8 figcaption {
+  background-color: #9A3015;
+}
+
+.figure8 figcaption p {
+  color: white;
+}
+
+.figure9 {
+  background-color: white;
+}
+
+.figure9 figcaption {
+  background-color: #907595;
+}
+
+.figure9 figcaption p {
+  color: white;
+}
+
+#banner {
+  background-image: url(/img/fondoLadrillo.png);
+  background-repeat: repeat;
+  width: 100%;
+  height: 100px;
+}
+
+#banner h1 {
+  padding-top: 30px;
+  font-family: Sansita;
+  text-align: center;
+  font-size: 30px;
+}
+
+#mainCatalogo {
+  margin: auto;
+  padding: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+}
+
+#mainCatalogo h3 {
+  text-align: center;
+}
+
+#mainCatalogo .cards {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  font-family: sansita;
+  font-size: 15px;
+  background-color: white;
+}
+
+#mainCatalogo .vela2 {
+  text-align: center;
+  width: 33%;
+}
+
+#mainCatalogo .radioImg {
+  border-radius: 30px;
+  width: 300px;
+}
+
+#mainCatalogo .paddingsTextos {
+  padding-top: 20px;
+}
+
+#mainCatalogo .carousel {
+  width: 800px;
+  margin: auto;
+  padding: 10px;
+}
+
+#mainCatalogo .button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-top: 50px;
+}
+
+#mainCatalogo .boton {
+  border-radius: 10px;
+  background-color: #e9ce8a;
+  text-align: center;
+  border-style: none;
+  padding: 15px;
+  font-family: sansita;
+  color: #8b2465;
+}
+
+.bannerServicios {
+  width: 100%;
+  background-image: url(/img/fondoLadrillo.png);
+  height: 100px;
+}
+
+.bannerServicios h1 {
+  text-align: center;
+  font-family: sansita;
+  color: black;
+  font-size: 30px;
+  padding-top: 30px;
+}
+
+.tituloServicios {
+  height: 100px;
+  margin: auto;
+  padding: 27px;
+}
+
+.tituloServicios h2 {
+  padding: 10px;
+  font-family: sansita;
+}
+
+#mainServicios .fila {
+  padding: 2rem;
+}
+
+#mainServicios .columna {
+  background-color: #e9ce8a;
+  font-family: sansita;
+  font-size: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding: 3rem;
+}
+
+#mainServicios img {
+  width: 200px;
+  text-align: center;
+}
+
+#mainServicios h3 {
+  padding-top: 25px;
+}
+
+#mainServicios .hvr-grow {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+          transform: translateZ(0);
+  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+          box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
+  -webkit-transition-property: -webkit-transform;
+  transition-property: -webkit-transform;
+  transition-property: transform;
+  transition-property: transform, -webkit-transform;
+}
+
+#mainServicios .hvr-grow:hover,
+#mainServicios .hvr-grow:focus,
+#mainServicios .hvr-grow:active {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+#mainContacto .baner {
+  background-image: url(/img/fondoLadrillo.png);
+  background-repeat: repeat;
+  height: 100px;
+  width: 100%;
+  grid-area: baner;
+  text-align: center;
+  font-family: sansita;
+}
+
+#mainContacto .baner h1 {
+  text-align: center;
+  font-family: sansita;
+  padding-top: 30px;
+  font-size: 30px;
+}
+
+#mainContacto #formContent {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  height: 100%;
+  padding: 20px;
+}
+
+#mainContacto #formContent form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space between center;
+      -ms-flex-pack: space between center;
+          justify-content: space between center;
+  font-family: sansita;
+  width: 50%;
+}
+
+#mainContacto #formContent form textarea {
+  height: 100px;
+}
+
+#mainContacto #formContent form input {
+  width: 100%;
+  height: 40px;
+}
+
+#mainContacto #formContent form label {
+  text-align: left;
+  padding: 10px;
+}
+
+#mainContacto #formContent form .boton2 {
+  margin-top: 20px;
+  font-size: 1rem;
+  width: 20%;
+  font-family: sansita;
+  background-color: green;
+  color: white;
+  text-align: center;
+}
+
+#mainContacto .insta {
+  background-color: teal;
+  grid-area: insta;
+  height: 300px;
+}
+
+#bannerNos {
+  background-image: url(/img/fondoLadrillo.png);
+  background-repeat: repeat;
+  font-family: sansita;
+  text-align: center;
+  height: 100px;
+}
+
+#bannerNos h1 {
+  padding-top: 30px;
+}
+
+#mainNosotros {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-family: sansita;
+}
+
+#mainNosotros h2 {
+  text-align: center;
+  padding-top: 70px;
+}
+
+#mainNosotros p {
+  text-align: center;
+  padding-top: 60px;
+}
+
+#mainNosotros .imgContent1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#mainNosotros .imgCenter {
+  margin: auto;
+  width: 300px;
+  padding-top: 40px;
+}
+
+#mainNosotros .textoGusten {
+  font-size: 1.5rem;
+}
+
+@media only screen and (max-width: 834px) and (min-width: 415px) {
+  body {
+    width: 100%;
+  }
+  body nav {
+    width: 100%;
+  }
+  body nav ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    justify-items: left;
+  }
+  body nav li {
+    padding: 13px;
+    font-family: 'Sansita', sans-serif;
+    font-size: 18px;
+    text-decoration: none;
+  }
+  body nav a {
+    list-style-type: none;
+    text-decoration: none;
+    color: white;
+  }
+  body main h2 {
+    width: 100%;
+  }
+  body main .columnas {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  body main p {
+    font-size: 20px;
+  }
+  body #mainCatalogo {
+    margin: auto;
+    padding: 30px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    text-align: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  body #mainCatalogo h3 {
+    text-align: center;
+  }
+  body #mainCatalogo .cards {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    font-family: sansita;
+    font-size: 15px;
+    background-color: white;
+  }
+  body #mainCatalogo .vela2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100%;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  body #mainCatalogo figure {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  body #mainCatalogo figcaption {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  body #mainCatalogo .carousel {
+    width: 100%;
+    margin: auto;
+    padding: 10px;
+  }
+  body #mainServicios .fila {
+    padding: 2rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+  }
+  body #mainServicios .columna {
+    background-color: #e9ce8a;
+    font-family: sansita;
+    font-size: 20px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    padding: 3rem;
+    width: 100%;
+  }
+  body #mainServicios img {
+    width: 100%;
+    text-align: center;
+  }
+  body #mainServicios h3 {
+    padding-top: 25px;
+  }
+  body footer {
+    background-color: #e9ce8a;
+    height: 150px;
+    width: 100%;
+  }
+  body footer #footerGeneral {
+    padding-top: 20px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  body footer #footerGeneral #logoFooter {
+    display: none;
+  }
+  body footer #footerGeneral #logoFooter img {
+    width: 200px;
+  }
+  body footer #footerGeneral #instagram {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    display: none;
+  }
+  body footer #footerGeneral #instagram h4 {
+    font-family: sansita;
+    color: #8b2465;
+  }
+  body footer #footerGeneral #instagram img {
+    width: 70px;
+    height: 70px;
+  }
+  body footer #footerGeneral #instagram .tamañoLogos {
+    width: 80px;
+    height: 80px;
+  }
+  body footer #footerGeneral #linksFooter {
+    padding-right: 20px;
+    text-align: center;
+  }
+  body footer #footerGeneral ul {
+    list-style: none;
+  }
+  body footer #footerGeneral li {
+    font-family: sansita;
+    color: #8b2465;
+  }
+  body footer #footerGeneral a {
+    text-decoration: none;
+    color: #8b2465;
+  }
+}
+
+/** Style Nosotros **/
+/** tablet **/
+@media only screen and (max-width: 1024) and (min-width: 834) {
+  body {
+    width: 100%;
+  }
+  #columnas {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    justify-items: center;
+  }
+  nav {
+    width: 100%;
+    display: none;
+  }
+  nav img {
+    display: none;
+  }
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,56 @@
+footer{
+    background-color: #e9ce8a;
+    height: 158px;
+    width: 100%;
+    #footerGeneral{
+        padding-top: 20px;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: reverse;
+        a{
+            text-align: center;
+        }
+        #logoFooter{
+            img{
+                width: 200px;
+                margin-left: 10px;
+            }
+        }
+        #instagram{
+            flex-direction: column;
+            display: flex;
+            h4{
+                font-family: sansita;
+                color: #8b2465;
+                text-align: center;
+                font-size: 1.5rem;
+                padding-bottom: 10px;
+            }
+            img{
+                width: 70px;
+                height: 70px;
+            }
+            .tamañoLogos{
+                width: 80px;
+                height: 80px;
+            }
+
+        }
+        #linksFooter{
+            padding-right: 20px;
+        }
+        ul{
+            list-style: none;
+        }
+        li{
+            font-family: sansita;
+            color: #8b2465;
+            
+        }
+        a{
+            text-decoration: none;
+            color: #8b2465;
+
+        }
+    }
+}

@@ -1,0 +1,50 @@
+body{
+    width: 100%;
+    background-color: transparent;
+    
+    
+    main{
+        h2{
+            text-align: center;
+            padding: 40px;
+            font-family: sansita;
+        }
+        .columnas{
+            width: 100%;
+        }
+        h3{
+            color: black;
+            font-family: sansita;
+
+        }
+        p{
+            color: #8b2465;
+            padding: 30px;
+            font-size: 20px;
+            font-family: sansita;
+        }
+        
+        
+    }
+    .textoPresentacion{
+        padding-top: 50px;
+        font-family: sansita;
+        display: flex;
+        flex-direction: column;
+        font-size: 20px;
+    
+    img{
+        width: 200px;
+        margin-top: -30px;
+    }    
+    h2{
+        text-align: center;
+        padding: 30px;
+    }
+    p{
+        padding: 75px;
+        color: #8b2465;
+        width: 100%;
+    }
+    }
+}

@@ -1,0 +1,160 @@
+@media only screen and (max-width: 834px) and (min-width: 415px){
+
+    body{
+        width: 100%;
+    
+    
+    nav{
+        width: 100%;
+        ul{
+            display: flex;
+            flex-direction: column;
+            justify-items: left;
+        }
+        li{
+        padding: 13px;
+        font-family: 'Sansita', sans-serif;
+        font-size: 18px;
+        text-decoration: none;
+        }
+        a{
+            list-style-type: none;
+            text-decoration: none; 
+            color: white;
+        }
+    }
+    main{
+        h2{
+            width: 100%;
+        }
+        .columnas{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            flex-wrap: wrap;
+        }p{
+            font-size: 20px;
+        }
+    }
+    #mainCatalogo{
+        margin: auto;
+        padding:30px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: space-between;
+        h3{
+            text-align: center;
+        }
+        .cards{
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            font-family: sansita;
+            font-size: 15px;
+            background-color: white;
+        }
+        .vela2{
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            align-items: center;
+        }
+        figure{
+            display: flex;
+            flex-direction: column;
+        }
+        figcaption{
+            display: flex;
+            flex-direction: column;
+        }
+        .carousel{
+            width: 100%;
+            margin: auto;
+            padding: 10px;
+        }
+    }
+    #mainServicios{
+        .fila{
+            padding: 2rem;
+            display: flex;
+            flex-direction: column;
+            flex-wrap: nowrap;
+        }
+        .columna{
+            background-color: #e9ce8a;
+            font-family: sansita;
+            font-size: 20px;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            flex-wrap: wrap;
+            padding: 3rem;
+            width: 100%;
+        }
+        img{
+            width: 100%;
+            text-align: center;
+        }
+        h3{
+            padding-top:25px;
+        }
+    
+    }
+
+    footer{
+        background-color: #e9ce8a;
+        height: 150px;
+        width: 100%;
+        #footerGeneral{
+            padding-top: 20px;
+            display: flex;
+            flex-direction: column-reverse;
+            align-items: center;
+            #logoFooter{
+                display: none;
+                img{
+                    width: 200px;
+                }
+            }
+            #instagram{
+                flex-direction: column;
+                display: flex;
+                h4{
+                    font-family: sansita ;
+                    color: #8b2465;
+                }
+                img{
+                    width: 70px;
+                    height: 70px;
+                }
+                .tamañoLogos{
+                    width: 80px;
+                    height: 80px;
+                }
+                display: none;
+    
+            }
+            #linksFooter{
+                padding-right: 20px;
+                text-align: center;
+            }
+            ul{
+                list-style: none;
+            }
+            li{
+                font-family: sansita;
+                color: #8b2465;
+                
+            }
+            a{
+                text-decoration: none;
+                color: #8b2465;
+    
+            }
+        }
+    }
+         
+    }
+}

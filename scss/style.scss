@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import "header";
+@import "footer";
+@import "index";
+@import "parallax";
+@import "figure";
+@import "catalogo";
+@import "servicios";
+@import "contacto";
+@import "quienessomos";
+@import "queries";
+
+/** Style Nosotros **/ 
+
+
+/** tablet **/
+
+@media only screen and (max-width: 1024) and (min-width: 834){
+
+    body{
+        width: 100%;
+    }
+
+    #columnas{
+        display: flex;
+        flex-direction: row;
+        justify-items: center;
+    }
+ 
+    nav{
+        width: 100%;
+        display: none;
+    }
+
+    nav img{
+        display: none;
+    }
+
+   
+
+}
