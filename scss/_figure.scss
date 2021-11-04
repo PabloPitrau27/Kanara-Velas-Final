@@ -1,105 +1,107 @@
+$blanco: white;
+$violeta: #8b2465; 
+
+
 .figure1{
-    background-color: white;
+    background-color: $blanco;
     h4{
-        color: #8b2465;
-    }
+        color: $violeta;
+        }
 }
 
 .figure1 figcaption{
     background-color: #f8dbb4;
     h4{
-        color:#8b2465; ;
+        color: $violeta;
     }
 }       
 
 
 .figure2{
-    background-color: white;
+    background-color: $blanco;
 }
 
 .figure2 figcaption{
     background-color: #439EA8;
     p{
-        color: white;
+        color: $blanco;
     }
 }
 
 .figure3{
-    background-color: white;
+    background-color: $blanco;
 }
 
 .figure3 figcaption{
     background-color: #C77285;
     p{
-        color: white;
+        color: $blanco;
     }
 }
 
 .figure4{
-    background-color: white;
+    background-color: $blanco;
 }
 
 .figure4 figcaption{
     background-color: #DD564D;
     p{
-        color: white;
+        color: $blanco;
     }
 } 
 
 .figure5{
-    background-color: white;
+    background-color: $blanco;
 }
 
 .figure5 figcaption{
     background-color: #67673C;
     p{
-        color: white;
+        color: $blanco;
     }
 }
 
 
 .figure6{
-    background-color: white;
+    background-color: $blanco;
 }
 
 .figure6 figcaption{
     background-color: #FCDE58;
     h4{
-        color: #8b2465;
+        color: $violeta;
     }
 }
 
 .figure7{
-    background-color: white;
+    background-color: $blanco;
 }
 
 .figure7 figcaption{
     background-color: #2F3025;
     p{
-        color: white;
+        color: $blanco;
     }
 }
 
 .figure8{
-    background-color: white;
+    background-color: $blanco;
 }
 
 .figure8 figcaption{
     background-color: #9A3015;
     p{
-        color: white;
+        color: $blanco;
     }
 }
 
 .figure9{
-    background-color: white;
+    background-color: $blanco;
 }
 
 .figure9 figcaption{
     background-color: #907595;
     p{
-        color: white;
+        color: $blanco;
     }
 }
-
-

@@ -168,7 +168,7 @@ body .textoPresentacion p {
 }
 
 .parallax {
-  background-image: url("/img/carousel/c3.JPG");
+  background-image: url("/img/c3.JPG");
   min-height: 500px;
   background-attachment: fixed;
   background-position: center;
@@ -177,7 +177,7 @@ body .textoPresentacion p {
 }
 
 .parallax2 {
-  background-image: url("/img/carousel/c6.JPG");
+  background-image: url("/img/c6.JPG");
   min-height: 500px;
   background-attachment: fixed;
   background-position: center;
@@ -195,7 +195,7 @@ body .textoPresentacion p {
 }
 
 .parallax4 {
-  background-image: url("/img/carousel/c7.JPG");
+  background-image: url("/img/c7.JPG");
   min-height: 500px;
   background-attachment: fixed;
   background-position: center;
@@ -204,7 +204,7 @@ body .textoPresentacion p {
 }
 
 .parallax5 {
-  background-image: url("/img/carousel/c1.JPG");
+  background-image: url("/img/c1.JPG");
   min-height: 500px;
   background-attachment: fixed;
   background-position: center;
@@ -213,7 +213,7 @@ body .textoPresentacion p {
 }
 
 .parallax6 {
-  background-image: url("/img/carousel/c4.JPG");
+  background-image: url("/img/c4.JPG");
   min-height: 500px;
   background-attachment: fixed;
   background-position: center;
@@ -420,7 +420,7 @@ body .textoPresentacion p {
 
 .bannerServicios {
   width: 100%;
-  background-image: url(/img/fondoLadrillo.png);
+  background-image: url("/img/fondoLadrillo.png");
   height: 100px;
 }
 
@@ -440,7 +440,7 @@ body .textoPresentacion p {
 
 .tituloServicios h2 {
   padding: 10px;
-  font-family: sansita;
+  font-family: Sansita;
 }
 
 #mainServicios .fila {
@@ -608,8 +608,7 @@ body .textoPresentacion p {
 }
 
 #mainNosotros p {
-  text-align: center;
-  padding-top: 60px;
+  padding-top: 80px;
 }
 
 #mainNosotros .imgContent1 {
@@ -673,8 +672,6 @@ body .textoPresentacion p {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
   }
   body main p {
     font-size: 20px;
@@ -850,28 +847,227 @@ body .textoPresentacion p {
   }
 }
 
-/** Style Nosotros **/
-/** tablet **/
-@media only screen and (max-width: 1024) and (min-width: 834) {
+@media only screen and (max-width: 1024) and (min-width: 768) {
   body {
     width: 100%;
   }
-  #columnas {
+  body nav {
+    width: 100%;
+  }
+  body nav ul {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: horizontal;
+    -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    justify-items: center;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    justify-items: left;
   }
-  nav {
+  body nav li {
+    padding: 13px;
+    font-family: 'Sansita', sans-serif;
+    font-size: 18px;
+    text-decoration: none;
+  }
+  body nav a {
+    list-style-type: none;
+    text-decoration: none;
+    color: white;
+  }
+  body main h2 {
     width: 100%;
+  }
+  body main .columnas {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  body main p {
+    font-size: 20px;
+  }
+  body #mainCatalogo {
+    margin: auto;
+    padding: 30px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    text-align: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  body #mainCatalogo h3 {
+    text-align: center;
+  }
+  body #mainCatalogo .cards {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    font-family: sansita;
+    font-size: 15px;
+    background-color: white;
+  }
+  body #mainCatalogo .vela2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100%;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  body #mainCatalogo figure {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  body #mainCatalogo figcaption {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  body #mainCatalogo .carousel {
+    width: 100%;
+    margin: auto;
+    padding: 10px;
+  }
+  body #mainServicios .fila {
+    padding: 2rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+  }
+  body #mainServicios .columna {
+    background-color: #e9ce8a;
+    font-family: sansita;
+    font-size: 20px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    padding: 3rem;
+    width: 100%;
+  }
+  body #mainServicios img {
+    width: 100%;
+    text-align: center;
+  }
+  body #mainServicios h3 {
+    padding-top: 25px;
+  }
+  body footer {
+    background-color: #e9ce8a;
+    height: 150px;
+    width: 100%;
+  }
+  body footer #footerGeneral {
+    padding-top: 20px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  body footer #footerGeneral #logoFooter {
     display: none;
   }
-  nav img {
+  body footer #footerGeneral #logoFooter img {
+    width: 200px;
+  }
+  body footer #footerGeneral #instagram {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
     display: none;
+  }
+  body footer #footerGeneral #instagram h4 {
+    font-family: sansita;
+    color: #8b2465;
+  }
+  body footer #footerGeneral #instagram img {
+    width: 70px;
+    height: 70px;
+  }
+  body footer #footerGeneral #instagram .tamañoLogos {
+    width: 80px;
+    height: 80px;
+  }
+  body footer #footerGeneral #linksFooter {
+    padding-right: 20px;
+    text-align: center;
+  }
+  body footer #footerGeneral ul {
+    list-style: none;
+  }
+  body footer #footerGeneral li {
+    font-family: sansita;
+    color: #8b2465;
+  }
+  body footer #footerGeneral a {
+    text-decoration: none;
+    color: #8b2465;
   }
 }
+
+/** Style Nosotros **/
+/** tablet **/
 /*# sourceMappingURL=style.css.map */
